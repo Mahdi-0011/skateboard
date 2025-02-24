@@ -1,6 +1,7 @@
 import ListSection from "./components/ListSection/ListSection";
 import "./App.scss";
 import Counter from "./components/Counter/Counter";
+import DropDown from "./components/DropDown/DropDown";
 
 function App() {
 	const animals = ["gorilla", "horse", "pig", "giraff", "chicken", "elephant"];
@@ -11,6 +12,7 @@ function App() {
 		<>
 			<h1>🛹 skateboard</h1>
 			<p>a demo for students of React</p>
+			<DropDown label="Animals" items={animals} />
 			<Counter />
 			<ListSection items={animals} />
 			<ListSection items={peoples} />
