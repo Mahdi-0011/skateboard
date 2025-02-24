@@ -13,6 +13,7 @@ function App() {
 			<h1>🛹 skateboard</h1>
 			<p>a demo for students of React</p>
 			<DropDown label="Animals" items={animals} />
+			<DropDown label="peoples" items={peoples} />
 			<Counter />
 			<ListSection items={animals} />
 			<ListSection items={peoples} />

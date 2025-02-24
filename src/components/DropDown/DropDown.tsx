@@ -23,6 +23,7 @@ export default function DropDown({ label, items }: Readonly<DropDownProps>) {
 				))}
 			</select>
 			<p>You chose: {value}</p>
+			<hr />
 		</div>
 	);
 }
