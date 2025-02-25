@@ -14,6 +14,7 @@ function App() {
 			<p>a demo for students of React</p>
 			<DropDown label="Animals" items={animals} />
 			<DropDown label="peoples" items={peoples} />
+			<DropDown label="frutis" items={fruits} />
 			<Counter />
 			<ListSection items={animals} />
 			<ListSection items={peoples} />
